@@ -6,7 +6,8 @@ namespace lab07
     {
         static void Main(string[] args)
         {
-            
+            Console.WriteLine("Please insert a number: ");
+            int number = int.Parse(Console.ReadLine());
         }
     }
 }
